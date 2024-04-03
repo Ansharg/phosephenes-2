@@ -16,6 +16,11 @@ import streamyard from '../assets/streamyard3605.jpg'
 import interviewcake from '../assets/r-66-interview-cake-be-good-at-programming-interviews.jpg'
 import canva from '../assets/1656733637logo-canva-png.webp'
 import zsecurity from '../assets/zsecurity.webp'
+import xyz from '../assets/xyzdomains.png'
+import intern from '../assets/internshala.webp'
+import timepass from '../assets/timepass.jpeg'
+import waffle from '../assets/waffle.png'
+import gofro from '../assets/gofro.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   EffectFade,
@@ -216,12 +221,12 @@ const Prizes = () => {
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={sybgen} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
               </div>
             </Swiper>
           </div>
@@ -263,12 +268,9 @@ const Prizes = () => {
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={sybgen} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={xyz} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={streamyard} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={interviewcake} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
@@ -277,10 +279,10 @@ const Prizes = () => {
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={canva} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={zsecurity} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
               </div>
             </Swiper>
           </div>
@@ -318,36 +320,36 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={streamyard} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={zsecurity} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={intern} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={timepass} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={waffle} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={gofro} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                </SwiperSlide> */}
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
               </div>
             </Swiper>
           </div>
