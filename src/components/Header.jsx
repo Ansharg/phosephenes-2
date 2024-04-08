@@ -13,7 +13,8 @@ const Header = () => {
         <nav className="px-4 py-4 w-full flex justify-between items-center">
           <HashLink
             smooth
-            to="/#home"
+            to="https://codingninjas-cuiet.in/"
+            target='_blank'
           >
             <div className='flex items-center space-x-3'>
               <div className="flex items-center justify-center flex-row lg:p-2">

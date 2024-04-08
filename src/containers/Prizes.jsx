@@ -21,6 +21,9 @@ import intern from '../assets/internshala.webp'
 import timepass from '../assets/timepass.jpeg'
 import waffle from '../assets/waffle.png'
 import gofro from '../assets/gofro.png'
+import airtel from '../assets/airtel.png'
+import ezy from "../assets/eazydiner.png"
+import what from "../assets/what.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   EffectFade,
@@ -139,7 +142,7 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={title} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={airtel} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
@@ -174,7 +177,7 @@ const Prizes = () => {
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ezy} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
@@ -279,10 +282,10 @@ const Prizes = () => {
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={canva} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={zsecurity} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide> */}
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={what} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
               </div>
             </Swiper>
           </div>
