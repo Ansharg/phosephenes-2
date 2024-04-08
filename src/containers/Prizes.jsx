@@ -158,6 +158,45 @@ const Prizes = () => {
           </div>
           <div className="text-white z-10">
             <div className="text-purple-800 lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
+              <p>Diamond Sponsor</p>
+            </div>
+          </div>
+          <div className=" flex items-center justify-center w-full z-[10] p-2">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade, Autoplay]}
+              navigation={false}
+              slidesPerView={2}
+              spaceBetween={50}
+              autoplay={{ delay: 2000 }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                520: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+              }}
+            >
+              <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={wolf} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide> */}
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={codingninjas} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ezy} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+              </div>
+            </Swiper>
+          </div>
+          <div className="text-white z-10">
+            <div className="text-purple-800 lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
               <p>Platinum Sponsor</p>
             </div>
           </div>
@@ -174,8 +213,8 @@ const Prizes = () => {
                   spaceBetween: 10,
                 },
                 520: {
-                  slidesPerView: 3,
-                  spaceBetween: 10,
+                  slidesPerView: 2,
+                  spaceBetween: 20,
                 },
               }}
             >
@@ -184,18 +223,18 @@ const Prizes = () => {
 
                   <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={wolf} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
-
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ezy} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
-                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={codingninjas} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={mario} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
+                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ezy} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide> */}
               </div>
             </Swiper>
           </div>
