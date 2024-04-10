@@ -32,6 +32,9 @@ import incogni from "../assets/incogni.png"
 import amd from "../assets/amd.png"
 import echo from "../assets/echo.jpg"
 import mario from "../assets/mario.jpg"
+import aecc from "../assets/aecc.png"
+import creambell from "../assets/creambell.png"
+import skyjumper from "../assets/skyjumper.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -213,7 +216,7 @@ const Prizes = () => {
                   spaceBetween: 10,
                 },
                 520: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                   spaceBetween: 20,
                 },
               }}
@@ -231,10 +234,10 @@ const Prizes = () => {
 
                   <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={mario} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ezy} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide> */}
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={aecc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
               </div>
             </Swiper>
           </div>
@@ -282,10 +285,10 @@ const Prizes = () => {
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={sybgen} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
-                {/* <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
-                </SwiperSlide> */}
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={creambell} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
               </div>
             </Swiper>
           </div>
@@ -341,6 +344,10 @@ const Prizes = () => {
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={what} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={skyjumper} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
