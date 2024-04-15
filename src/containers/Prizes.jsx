@@ -59,27 +59,27 @@ const Prizes = () => {
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Prize pool of XX Lakhs which will include: • Prize money XX Lakh •
-                  Goodies worth XX Lakh Each participant will get premium goodies
-                  and merch. Venue - <span className="text-purple-800">Revealing Soon!</span> , Date - XX April, 2024.
+                  Delecacies worth of 1.2 CR which will include: • Winning Delecacy 23 Lakh •
+                  Goodies worth 70 Lakh Each participant will get premium goodies
+                  and merch. Venue - <span className="text-purple-800">Chitkara University, Punjab</span> , Date: 25-26 April, 2024.
 
                 </p>
               </div>
               <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex text-purple-800 items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  font-black">
-                    Prize Pool
+                    Delecacies<br />Worth
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl text-[#ffffff] font-black">
-                  XX LAKHS
+                  1.2 CRORES
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-[#ffffff] font-black">
-                    Prize Money
+                    Winning<br />Delecacy
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-[#ffffff] font-black">
-                  XX LAKHS
+                  23 LAKHS
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
@@ -87,7 +87,7 @@ const Prizes = () => {
                     Goodies
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-[#ffffff] font-black">
-                    XX LAKHS
+                    70 LAKHS
                   </h1>
                 </div>
               </div>
