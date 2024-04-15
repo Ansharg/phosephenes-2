@@ -10,7 +10,7 @@ import line from '../assets/Line.svg'
 import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
 import video from '../assets/render.mp4'
-import pdf from '../assets/rulebook.pdf'
+import pdf from '../assets/new-rulebook.pdf'
 import { Link } from 'react-router-dom'
 const HeroPage = () => {
   const [modal, setModal] = useState(false);
@@ -45,7 +45,7 @@ const HeroPage = () => {
             </div>
           </div>
           <div className="flex items-center justify-center flex-row gap-4 w-full py-2 s:p-4 my-2 md:my-6">
-            <Link to="https://codingninjas-cuiet.in/" target='_blank' className="flex items-center justify-center bg-white group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-white rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfuGo_B1jTO2aD-90SC2ifKZ8e739jVsxNDfF-Jh_0mrP54BQ/viewform?usp=sf_link" target='_blank' className="flex items-center justify-center bg-white group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-white rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
               <button type="submit" className=" text-gradient group-hover:text-white rounded-full text-xs font-black ">Register Now</button>
             </Link>
             <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center bg-transparent rounded-full transition duration-200 ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-white">
