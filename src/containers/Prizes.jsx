@@ -35,6 +35,7 @@ import mario from "../assets/mario.jpg"
 import aecc from "../assets/aecc.png"
 import creambell from "../assets/creambell.png"
 import skyjumper from "../assets/skyjumper.png"
+import time from "../assets/time.jpg"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -288,6 +289,10 @@ const Prizes = () => {
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
                   <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={creambell} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={time} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
