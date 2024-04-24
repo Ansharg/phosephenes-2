@@ -60,7 +60,7 @@ const Prizes = () => {
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Delecacies worth of 1.2 crores which will include: • Winning Delecacy 30 Lakh •
+                  Delecacies worth of 1.2 Crores which will include: • Winning Delecacy 30 Lakh •
                   Goodies worth 72 Lakh Each participant will get premium goodies
                   and merch. Venue - <span className="text-purple-800">Chitkara University, Punjab</span> , Date: 25-26 April, 2024.
 
