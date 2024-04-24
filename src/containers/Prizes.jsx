@@ -99,8 +99,8 @@ const Prizes = () => {
               </div>
               <div className="flex items-center justify-center flex-row w-full sm:p-2 my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  It will be a 36 hr event. Team of 5 will be made having 3
-                  Chitkara Business School students and 2 CSE students. Teams
+                  It will be a 36 hr event. Team of 5 will be made having 2
+                  Chitkara Business School students and 3 CSE students. Teams
                   will be formed by organising team and will be assigned one
                   nation, and will manage each nation.
                 </p>
